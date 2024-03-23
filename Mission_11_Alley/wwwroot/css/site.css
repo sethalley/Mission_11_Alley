@@ -1,0 +1,63 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: peachpuff;
+    border: 8px solid #88CBA3 ;
+}
+
+#book {
+    max-width: 400px; /* Adjust the width as necessary */
+    margin: 20px auto; /* Centers the book div */
+    padding: 20px;
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #88CBA3; /* Light background */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow */
+}
+
+    #book h3 {
+        color: #333; /* Dark grey color for the title */
+        font-family: 'Arial', sans-serif; /* A simple, readable font */
+        font-size: 24px; /* Medium-large font size */
+        margin-bottom: 10px; /* Space below the title */
+    }
+
+    #book ul {
+        list-style-type: none; /* Removes default bullet points */
+        padding: 0;
+        margin: 0;
+    }
+
+    #book li {
+        font-family: 'Arial', sans-serif;
+        color: #666; /* Medium grey for the text */
+        font-size: 16px; /* Standard font size */
+        padding: 5px 0; /* Space between list items */
+    }
+
+        /* Highlighting specific details */
+        #book li:nth-child(odd) {
+            background-color: #f0f0f0; /* Slightly darker background for odd items */
+        }
+
+        #book li:nth-child(even) {
+            background-color: #e9e9e9; /* Slightly lighter background for even items */
+        }
